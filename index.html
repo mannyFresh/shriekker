@@ -1,6 +1,45 @@
 <html>
 <header><title>shriekker.com</title></header>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, inital-scale=1.0, shrink-to-fit=no">
+    <style type="text/css">
+      #main-content {
+        margin: 0 auto;
+      }
+
+      .responsive {
+        width: 100%;
+        height: 0;
+        padding-bottom: 100%;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .responsive iframe {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        max-width: 700px;
+      }
+    </style>
+ </head>
 <body>
-<iframe style="border: 0; width: 350px; height: 522px;" src="https://bandcamp.com/EmbeddedPlayer/album=549328412/size=large/bgcol=333333/linkcol=2ebd35/transparent=true/" seamless><a href="http://shriekker.bandcamp.com/album/basement-tape">BASEMENT TAPE by SHRIEKKER</a></iframe>
+
+<center>
+	<div>
+	  <img src="images/IMG_0100.jpg" alt="shriekker">
+	</div>
+
+</center>
+
+<div class="responsive">
+      <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=549328412/size=large/bgcol=333333/linkcol=2ebd35/tracklist=false/artwork=none/transparent=true/" seamless><a href="http://shriekker.bandcamp.com/album/basement-tape">BASEMENT TAPE by SHRIEKKER</a></iframe>
+    </div>
+
+
 </body>
 </html>
